@@ -16,9 +16,8 @@ return {
   lazy = false,
   opts = {
     filesystem = {
-      hijack_netrw_behavior = 'open_default',
+      hijack_netrw_behavior = 'open_current',
       window = {
-        position = 'current',
         mappings = {
           ['\\'] = 'close_window',
         },
